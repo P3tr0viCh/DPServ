@@ -1,0 +1,9 @@
+CREATE TABLE dpb (
+scales SMALLINT,
+id INT,
+bdatetime DATETIME,
+weighname CHAR (50),
+product CHAR(50),
+leftside SMALLINT,
+netto FLOAT(16,2),
+PRIMARY KEY (scales, bdatetime, id));
